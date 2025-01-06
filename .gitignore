@@ -1,0 +1,25 @@
+# Ignore Python bytecode files
+*.pyc
+__pycache__/
+
+# Ignore build artifacts
+dist/
+build/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore sensitive files
+.env
+*.key
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+Dashlogo.ico
+Procfile
+Stockgui.py
+stockgui.spec
+/assets
